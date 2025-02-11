@@ -144,4 +144,10 @@ document.addEventListener('keydown',event=>{
     else if (event.key === 'a'){
         autoPlay();
     }
+    else if (event.key === 'c'){
+        resetScore();
+    }
+    else if (event.key === 'Backspace'){
+        resetScore();
+    }
 })
